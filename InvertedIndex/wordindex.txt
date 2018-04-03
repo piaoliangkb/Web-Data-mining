@@ -1,0 +1,235 @@
+is	1 3 4 4 5 5 6 
+first	2 5 
+recognized	4 
+not	3 3 5 5 
+mathematician	3 
+motions	2 
+when	2 
+are	3 3 3 4 4 4 5 6 6 6 
+discovery	2 
+sports	4 5 6 
+axioms	1 
+example	2 4 
+arguments	2 
+entertainment	6 
+for	2 2 4 6 6 6 
+simple	6 
+accomplishments	6 
+source	6 
+However	5 6 
+levels	6 
+develop	2 
+There	3 
+Mathematicians	1 
+skills	4 
+continued	2 
+board	4 
+involvement	4 
+kept	6 
+crossing	5 
+points	3 
+hand	3 
+debate	3 
+truth	1 
+appeared	2 
+Practical	2 
+fair	4 
+Records	6 
+counting	2 
+seek	1 
+out	1 
+numbers	3 
+just	6 
+The	3 
+records	2 
+at	6 
+Euclid's	2 
+by	1 4 4 
+appropriately	1 
+activity	2 4 
+shown	5 
+widely	6 
+reality	3 3 
+rules	4 
+to	2 2 2 3 3 5 5 6 
+on	3 
+criteria	5 5 
+science	3 
+degree	5 
+diving	5 
+recreation	4 
+playing	4 
+necessary	3 
+needed	4 
+line	5 
+strategy	4 
+reasoning	2 
+Peirce	3 
+present	2 
+that	2 3 3 6 
+failures	6 
+can	4 
+sportscitation	4 
+human	2 3 
+primarily	4 
+professional	6 
+with	2 5 
+goals	5 
+definitions	1 
+usually	4 
+whether	3 
+draws	3 
+result	5 
+AD	2 2 
+some	4 5 
+good	6 
+world	2 
+where	5 
+laws	3 
+new	1 2 
+Albert	3 
+a	2 2 4 4 5 5 6 
+creations	3 
+space	1 
+major	6 
+physical	2 4 6 
+scoring	5 
+certain	3 
+such	3 4 5 5 5 
+forms	4 
+abstraction	2 
+dressage	5 
+define	5 
+This	5 
+figure	5 
+patterns	1 
+an	4 
+certain;	3 
+mathematics	2 2 2 3 3 
+requiring	4 4 
+BC	2 
+pageants	5 
+led	2 
+called	3 
+mental	4 4 
+card	4 
+beauty	5 
+evolved	2 
+It	4 
+Mathematics	1 2 
+condition	6 
+according	5 
+formulate	1 
+India	2 
+over	3 
+building	5 
+and	1 1 1 2 2 2 2 3 3 4 4 4 4 4 5 5 5 5 6 6 
+exercise	6 
+Non-competitive	4 
+classified	4 4 
+contrast	5 
+events	5 
+most	2 6 6 
+customs	4 
+or	3 4 4 5 6 
+have	5 
+the	1 2 2 2 2 2 2 2 3 3 3 5 5 5 6 6 
+play	4 
+discoveries	2 
+has	2 
+Greek	2 
+rapid	2 
+played	6 
+in	2 2 2 2 2 2 2 2 2 4 5 5 6 6 
+Physical	5 
+do	3 
+quantity	1 
+body	5 
+fun	6 
+objective	4 
+change	1 
+skillful	4 
+China	2 
+winner	4 
+measurement	2 
+Olympic	4 
+announced	6 
+often	5 6 
+people	6 
+study	1 2 
+be	4 5 
+conclusions	3 
+deduction	1 
+updated	6 
+increase	2 
+A	4 
+Activities	4 
+back	2 
+while	6 
+does	5 
+commitment	4 
+of	1 2 2 2 2 3 4 4 5 5 6 
+entertaining	4 
+use	2 
+innovations	2 
+games	4 4 
+set	4 
+refer	3 3 
+organized	4 
+skill	5 5 
+until	2 
+conjectures	1 
+Rigorous	2 
+objects	2 3 
+Muslim	2 
+chosen	1 
+competitive	4 
+which	4 
+mind	4 
+rate	2 
+exist	2 3 
+activities	4 5 
+Sports	6 
+calculation	2 
+skating	5 
+Renaissance	2 
+judged	5 5 
+interacting	2 
+naturally	3 
+far	2 3 3 
+Benjamin	3 
+scientific	2 
+continues	2 
+defined	4 5 
+governed	4 
+Elements	2 
+mathematical	2 2 3 
+Through	2 
+news	6 
+catch	4 
+systematic	2 
+fact	6 
+from	1 2 
+been	2 
+establish	1 
+Einstein	3 
+day	2 
+highest	6 
+shapes	2 
+sport	4 5 6 6 
+as	2 2 3 3 3 3 3 4 4 4 4 4 5 5 5 5 
+need	6 
+stated	3 
+rigorous	1 
+jogging	4 
+well	5 
+they	3 3 3 
+other	3 5 
+means	4 
+performance	5 
+notably	2 
+stay	6 
+written	2 
+well-defined	5 
+structure	1 
+logical	2 

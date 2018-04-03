@@ -1,0 +1,6 @@
+1	D:\documents\大三下\webdatamining\倒排索引\倒排索引\documents\math1.txt
+2	D:\documents\大三下\webdatamining\倒排索引\倒排索引\documents\math2.txt
+3	D:\documents\大三下\webdatamining\倒排索引\倒排索引\documents\math3.txt
+4	D:\documents\大三下\webdatamining\倒排索引\倒排索引\documents\sports1.txt
+5	D:\documents\大三下\webdatamining\倒排索引\倒排索引\documents\sports2.txt
+6	D:\documents\大三下\webdatamining\倒排索引\倒排索引\documents\sports3.txt
