@@ -1,4 +1,5 @@
 - 作业要求：在MiniSearchEngine的基础上实现BoolSearch的功能。
+- 源代码地址：[https://github.com/piaoliangkb/Flaskblog/tree/master/app/extends](https://github.com/piaoliangkb/Flaskblog/tree/master/app/extends)
 - 最终结果地址: [http://piaoliangkb.info/extends/boolsearch](http://piaoliangkb.info/extends/boolsearch)
 
 ![image.png](https://upload-images.jianshu.io/upload_images/11146099-c074e90839ee6803.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
