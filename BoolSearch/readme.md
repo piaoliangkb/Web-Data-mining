@@ -74,7 +74,7 @@ words = []
             occurset, isfound = MiniSearchEngine.SearchSingleKeyword(words[0], isfound)
             if occurset:
                 queryresult = MiniSearchEngine.GenerateResultDict(occurset)
-````
+```
 3. 如果有多个参数，则此时words列表中保存了所有的参数。建立一个新的列表resultlist保存 ++单词对应的索引集合++ 和 ++bool关键词++ 。  
 4. 遍历words列表中的所有项，如果当前为第一项或者为最后一项，则把该项当成单词进行SearchSingleKeyword查找并将查找结果添加到resultlist中。如果不是第一项或者最后一项，则对于以下四种情况分别处理：  
                     **["AND", "AND"]**  
