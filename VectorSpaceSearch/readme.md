@@ -1,8 +1,4 @@
-姓名：张力  
-学号：2015141462293  
 
----------------------------------------------
-### 数据挖掘第四次作业
 ### VectorSpaceModel 和VectorSpaceSearch
 -------------------------------------------
 [示例地址](http://piaoliangkb.info/extends/boolsearch)  
