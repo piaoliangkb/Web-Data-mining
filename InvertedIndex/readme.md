@@ -6,7 +6,7 @@
 4. 工作完成。
 
 - 代码：
-```
+```python
 import os
 
 class InvertedFile():
