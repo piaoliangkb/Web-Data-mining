@@ -9,7 +9,7 @@
 1. 首先建立一个MiniSearchEngine类，在类中定义两个方法，分别为++SearchSingleKeyword(data, isfound)++和++GenerateResultDict(occurset)++
 2. ++SearchSingleKeyword(data,isfound)++ 方法传入要查询的单一单词和是否查找到的标志isfound，默认为True。若没查找到isfound返回False。
 
-```
+```python
 class MiniSearchEngine():
     @staticmethod
     def SearchSingleKeyword(data, isfound=True):
@@ -31,7 +31,7 @@ class MiniSearchEngine():
 ```
 
 3. ++GenerateResultDict(occurset)++ 函数根据查询出的occurset集合生成{文章名称：文章内容}列表进行展示。
-```
+```python
 @staticmethod
     def GenerateResultDict(occurset):
         queryresult = {}
@@ -57,14 +57,14 @@ class MiniSearchEngine():
 ### 在MiniSearchEngine的基础上添加bool查询的功能
 
 1. 首先定义查询结果字典和isfound的默认值
-```
+```python
 queryresult = {}
 # 查询结果字典
 isfound = True
 # 标记是否查询到结果，默认值设为True的原因是第一次进入界面时不显示未查找
 ``` 
 2. 从网页上获取查询参数,如果只有一个参数，则直接使用MiniSearchEngine中的SearchSingleKeyword方法进行查询
-```
+```python
 query = request.args.get('query', None)
 # 查询参数的获取
 words = []
@@ -84,7 +84,7 @@ words = []
 - 如果前一个元素为bool算符，那么当前元素必定当作单词；  
 - 如果前一个元素为集合，当前元素若为AND OR则为bool算符，否则当作单词。   
 - 将当前元素添加到resultlist中
-```
+```python
 resultlist = []
             # 建立一个列表暂存“单词对应的索引集合信息”和“bool关键词”
             for i in range(len(words)):
@@ -119,20 +119,20 @@ resultlist = []
 - 若前一个bool算符为AND，则该集合与AND之前的集合进行交操作，结果保存到当前集合；
 - 若前一个bool算符为or，则该集合与OR之前的集合进行并操作，结果保存到当前集合。
 - 最终的结果为最后一个集合。
-```
-            for i in range(1, len(resultlist)):
-                # 只有遇到当前元素为indexset才进行处理，若遇到bool运算符则检测下一个元素
-                if type(resultlist[i]) == type(resultlist[i - 1]):
-                    # 如果两个集合同为set，即两个单词相邻的情况
-                    # [set set]
-                    resultlist[i] = resultlist[i - 1] & resultlist[i]
-                elif type(resultlist[i - 1]) == str and type(resultlist[i]) == set:
-                    # [AND set]
-                    if resultlist[i - 1] == "AND":
-                        resultlist[i] = resultlist[i] & resultlist[i - 2]
-                    elif resultlist[i - 1] == "OR":
-                        resultlist[i] = resultlist[i] | resultlist[i - 2]
-            queryresult = MiniSearchEngine.GenerateResultDict(resultlist[-1])
+```python
+for i in range(1, len(resultlist)):
+    # 只有遇到当前元素为indexset才进行处理，若遇到bool运算符则检测下一个元素
+    if type(resultlist[i]) == type(resultlist[i - 1]):
+        # 如果两个集合同为set，即两个单词相邻的情况
+        # [set set]
+        resultlist[i] = resultlist[i - 1] & resultlist[i]
+    elif type(resultlist[i - 1]) == str and type(resultlist[i]) == set:
+        # [AND set]
+        if resultlist[i - 1] == "AND":
+            resultlist[i] = resultlist[i] & resultlist[i - 2]
+        elif resultlist[i - 1] == "OR":
+            resultlist[i] = resultlist[i] | resultlist[i - 2]
+queryresult = MiniSearchEngine.GenerateResultDict(resultlist[-1])
 ```
 ----------------------------------------------------------
 结果展示使用Python的Flask框架，完整代码请移步[https://github.com/piaoliangkb/Flaskblog/tree/master/app/extends](https://github.com/piaoliangkb/Flaskblog/tree/master/app/extends)
